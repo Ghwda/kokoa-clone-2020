@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- 스테이터스바  -->
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <!-- <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" 
+      xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" 
+      stroke-linejoin="round" stroke-width="2" 
+      d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"></path></svg> -->
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>99%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <!-- screen-header making -->
+  <header class="screen-header">
+    <h1 class="screen-header__title">Friends</h1>
+    <div class="screen-header__icons">
+      <span>
+        <i class="fas fa-search fa-lg"></i>
+      </span>
+      <span>
+        <i class="fas fa-music fa-lg"></i>
+      </span>
+      <span>
+        <i class="fas fa-cog fa-lg"></i>
+      </span>
+    </div>
+  </header>
+
+  <!-- only friends screen's have -->
+  <a id="friends-display-link" href="#">
+    <i class="fas fa-info-circle fa-lg"></i>
+    Friends' Names Display
+    <i class="fas fa-chevron-right fa-xs"></i>
+  </a>
+
+  <main class="friends-screen">
+    <!-- user-component making -->
+    <div class="user-component">
+      <div class="user-component__column">
+        <img 
+          src="C:/Users/gurdn/Desktop/아이 좋아! 아이 행복해!.PNG" 
+          class="user-component__column__avatar user-component__column__avatar--xl" 
+        />
+        <div class="user-component__column__text">
+          <h4 class="user-component__column__text-title">Your name should be to come here</h4>
+          <!-- <h6 class="user-component__column__text-subtitle">subtitle</h6> -->
+        </div>
+      </div>
+      <div class="user-component__column"></div>
+    </div>
+
+    <!-- friends-screen__channel making -->
+    <div class="friends-screen__channel">
+
+      <!-- header -->
+      <div class="friends-screen__channel-header">
+        <span>Channel</span>
+        <i class="fas fa-chevron-up"></i>
+      </div>
+
+      <!-- user-component -->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img 
+            src="https://www.youtube.com/s/desktop/a386e432/img/favicon.ico"
+            class="user-component__column__avatar user-component__column__avatar--sm" 
+          />
+          <div class="user-component__column__text">
+            <h4 class="user-component__column__text-title 
+            user-component__column__text-title--not-bold">Channel</h4>
+            <!-- <h6 class="user-component__column__text-subtitle">subtitle</h6> -->
+          </div>
+        </div>
+
+        <div class="user-component__column">
+          <span>2</span>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- navigation-bar making  -->
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a href="friends.html" class="nav__link">
+          <i class="fas fa-user fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a href="#" class="nav__link">
+          <span class="nav__notification">1</span>
+          <i class="far fa-comment fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a href="#" class="nav__link">
+          <i class="fas fa-search fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a href="#" class="nav__link">
+          <div class="nav__notification2"></div>
+          <i class="fas fa-ellipsis-h fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
