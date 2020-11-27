@@ -11,5 +11,11 @@
 	font-size: 35px;
 }
 .screen-header__icons span {
+	position: relative; /* 뱃지 클래스의 위치를 조정하기 위해 relative로 설정 */
 	margin-left: 25px;
+}
+.screen-header__notification-dot {
+	position: absolute;
+	top: -5px;
+	right: -7px;
 }

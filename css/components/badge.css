@@ -8,3 +8,13 @@
 	align-items: center;
 	color: white;
 }
+.badge-dot {
+	background-color: tomato;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+}
+.badge-space {
+	width: 25px;
+	height: 25px;
+}

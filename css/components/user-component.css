@@ -5,6 +5,8 @@
 }
 .user-component {
 	justify-content: space-between;
+	margin: 0 -25px;
+	padding: 15px var(--horizontal-space);
 }
 .user-component__column:last-child {
 	color: rgba(0, 0, 0, 0.4);
@@ -25,7 +27,7 @@
 .user-component__column__text-subtitle {
 	margin-top: 8px;
 	font-size: 17px;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 .user-component__column__avatar--xl {
 	width: 80px;
@@ -42,4 +44,8 @@
 .user-component__column__time {
 	display: block;
 	margin-bottom: 10px;
+}
+.user-component:hover {
+	background-color: rgba(0, 0, 0, 0.05);
+	cursor: default;
 }

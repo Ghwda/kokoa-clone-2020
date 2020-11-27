@@ -37,14 +37,110 @@
       </span>
       <span>
         <i class="fas fa-cog fa-lg"></i>
+        <div class="badge-dot screen-header__notification-dot"></div>
       </span>
     </div>
   </header>
 
-  <!-- navigation-bar making  -->
-  <nav class="nav">
-    <ul class="nav__list">
-      <li class="nav__btn">
+  <!-- main-screen -->
+  <main class="main-screen">
+
+    <!-- find-icons making -->
+    <div class="find-icons">
+      <div class="find-icons__icon">
+        <i class="fas fa-qrcode fa-2x"></i>
+        <span>QR code</span>
+      </div>
+      <div class="find-icons__icon">
+        <i class="far fa-address-book fa-2x"></i>
+        <span>Add by Contacts</span>
+      </div>
+      <div class="find-icons__icon">
+        <!-- <i class="fas fa-fingerprint fa-2x"></i> -->
+        <span id="find-icons__icon-ID"> ID </span> 
+        <span>Add by ID</span>
+      </div>
+      <div class="find-icons__icon">
+        <i class="far fa-envelope fa-2x"></i>
+        <span>Invite</span>
+      </div>
+    </div>
+    
+    <!-- find-recommended -->
+    <div class="find-recommended">
+      <h6 class="find-recommended__header">Recommended Friends</h6>
+      <div class="find-recommended__main">
+        <span>You have no recommended friends.</span>
+      </div>
+    </div>
+
+    <!-- find-openchat -->
+    <div class="find-openchat">
+
+      <div class="find-openchat__header">
+        <h4>Open Chat</h4>
+        <span>
+          Go to Openchat Home
+          <i class="fas fa-chevron-right"></i>
+        </span>
+      </div>
+
+      <div class="find-openchat__post">
+        <!-- text -->
+        <div class="find-openchat__post__column">
+          <h5 class="find-openchat__post__column-title">#BTS</h5>
+          <h6 class="find-openchat__post__column-hashtags">#BTS#ARMY#FRIENDS</h6>
+          <div class="find-openchat__post__column-members">
+            <img src="screenshot/01.png" />
+            <span class="find-openchat__post__column-members-count">802 members</span>
+            <div class="divider"></div>
+            <span class="find-openchat__post__column-members-status">Active</span>
+          </div>
+        </div>
+        <!-- photo -->
+        <div class="find-openchat__post__column">
+          <div class="find-openchat__post__column-photo">
+            <img src="C:/Users/gurdn/Documents/kokoa_clone/img.jpg" />
+            <div class="find-openchat__post__column-likes">
+              <i class="fas fa-heart fa-sm"></i>
+              <span>326</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="find-openchat__post">
+        <!-- text -->
+        <div class="find-openchat__post__column">
+          <h5 class="find-openchat__post__column-title">격기3반</h5>
+          <h6 class="find-openchat__post__column-hashtags">#MartialArts#격기#Fight#주지태#주지때로#지조때로</h6>
+          <div class="find-openchat__post__column-members">
+            <img src="C:/Users/gurdn/Desktop/아이 좋아! 아이 행복해!.PNG" />
+            <span class="find-openchat__post__column-members-count">3724 members</span>
+            <div class="divider"></div>
+            <span class="find-openchat__post__column-members-status">Active</span>
+          </div>
+        </div>
+        <!-- photo -->
+        <div class="find-openchat__post__column">
+          <div class="find-openchat__post__column-photo">
+            <img src="C:/Users/gurdn/Desktop/아이 좋아! 아이 행복해!.PNG" />
+            <div class="find-openchat__post__column-likes">
+              <i class="fas fa-heart fa-sm"></i>
+              <span>1K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+    <!-- navigation-bar making  -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
         <a href="friends.html" class="nav__link">
           <i class="far fa-user fa-2x"></i>
         </a>
@@ -62,7 +158,7 @@
       </li>
       <li class="nav__btn">
         <a href="more.html" class="nav__link">
-          <div class="nav__notification2"></div>
+          <div class="badge-dot nav__notification-dot"></div>
           <i class="fas fa-ellipsis-h fa-2x"></i>
         </a>
       </li>
