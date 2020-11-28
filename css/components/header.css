@@ -19,3 +19,25 @@
 	top: -5px;
 	right: -7px;
 }
+
+.alt-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: var(--horizontal-space);
+	margin-top: 26px;
+	margin-bottom: 8px;
+}
+.alt-header__column:first-child {
+	margin-right: auto;
+}
+.alt-header__column:last-child {
+	margin-left: auto;
+}
+.alt-header__column:last-child i {
+	margin-left: 30px;
+}
+.alt-header__column__title {
+	font-size: 28px;
+	font-weight: 600;
+}

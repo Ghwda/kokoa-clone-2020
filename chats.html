@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Chats - Kokoa Clone</title>
 </head>
 <body>
 
@@ -42,7 +42,9 @@
         <i class="fas fa-music fa-lg"></i>
       </span>
       <span>
-        <i class="fas fa-cog fa-lg"></i>
+        <a href="setting.html">
+          <i class="fas fa-cog fa-lg"></i>
+        </a>
       </span>
     </div>
   </header>
@@ -50,28 +52,30 @@
   <main class="main-screen">
 
     <!-- user-component -->
-    <div class="user-component user-component--hover">
-      <div class="user-component__column">
-        <img 
-        src="screenshot/06.png" 
-        class="user-component__column__avatar" 
-        />
-        <div class="user-component__column__text">
-          <h4 class="user-component__column__text-title">Friends Group</h4>
-          <h6 class="user-component__column__text-subtitle">what are you doing now?</h6>
+    <a href="chat.html">
+      <div class="user-component user-component--hover">
+        <div class="user-component__column">
+          <img 
+          src="screenshot/06.png" 
+          class="user-component__column__avatar" 
+          />
+          <div class="user-component__column__text">
+            <h4 class="user-component__column__text-title">Friends Group</h4>
+            <h6 class="user-component__column__text-subtitle">what are you doing now?</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__column__time">오전 10:46</span>
+          <div class="badge">34</div>
         </div>
       </div>
-      <div class="user-component__column">
-        <span class="user-component__column__time">오전 10:46</span>
-        <div class="badge">34</div>
-      </div>
-    </div>
-
-    <!-- user-component -->
-    <div class="user-component user-component--hover">
-      <div class="user-component__column">
-        <img 
-        src="screenshot/01.png" 
+    </a>
+      
+      <!-- user-component -->
+      <div class="user-component user-component--hover">
+        <div class="user-component__column">
+          <img 
+          src="screenshot/01.png" 
         class="user-component__column__avatar" 
         />
         <div class="user-component__column__text">
@@ -106,7 +110,7 @@
   </main>
     
     <!-- navigation-bar making  -->
-    <nav class="nav">
+  <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a href="friends.html" class="nav__link">
