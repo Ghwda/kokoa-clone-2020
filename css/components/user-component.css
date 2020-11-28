@@ -14,6 +14,9 @@
 	flex-direction: column;
 	align-items: flex-end;
 }
+.user-component__column:last-child i {
+	color: rgba(0, 0, 0, 1);
+}
 .user-component__column__avatar {
 	width: 70px;
 	height: 70px;
@@ -28,6 +31,10 @@
 	margin-top: 8px;
 	font-size: 17px;
 	opacity: 0.8;
+}
+.user-component__column__text-subtitle i {
+	margin-left: 8px;
+	color: red;
 }
 .user-component__column__avatar--xl {
 	width: 80px;
@@ -45,7 +52,7 @@
 	display: block;
 	margin-bottom: 10px;
 }
-.user-component:hover {
+.user-component--hover:hover {
 	background-color: rgba(0, 0, 0, 0.05);
 	cursor: default;
 }
