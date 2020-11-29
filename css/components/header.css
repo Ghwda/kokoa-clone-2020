@@ -1,3 +1,11 @@
+@keyframes rotateCog {
+	to {
+		transform: none;
+	}
+	from {
+		transform: rotateZ(360deg);
+	}
+}
 .screen-header {
 	display: flex;
 	justify-content: space-between;
@@ -19,20 +27,33 @@
 	top: -5px;
 	right: -7px;
 }
+.screen-header__icons .fa-cog:hover {
+	animation: rotateCog 2s linear infinite;
+}
 
 .alt-header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-sizing: border-box;
 	padding: var(--horizontal-space);
 	margin-top: 26px;
 	margin-bottom: 8px;
+	background-color: inherit;
 }
-.alt-header__column:first-child {
-	margin-right: auto;
+.alt-header__column {
+	width: 33%;
+}
+.alt-header__column:nth-child(2) {
+	display: flex;
+	justify-content: center;
 }
 .alt-header__column:last-child {
-	margin-left: auto;
+	display: flex;
+	justify-content: flex-end;
 }
 .alt-header__column:last-child i {
 	margin-left: 30px;

@@ -1,0 +1,51 @@
+.reply {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 20px;
+	align-items: center;
+	box-sizing: border-box;
+}
+.reply i {
+	opacity: 0.5;
+}
+.reply__column:first-child {
+	padding-right: 20px;
+}
+.reply__column:last-child {
+	display: flex;
+	justify-content: space-between;
+	padding: 6px 12px;
+	border: var(--main-border);
+	border-radius: 20px;
+	width: 100%;
+}
+.reply__column-functions {
+	display: flex;
+	align-items: center;
+}
+.reply__column-functions button {
+	background-color: var(--yellow);
+	border: none;
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+}
+.reply__column-functions > i {
+	padding: 0 5px;
+}
+.reply__column input {
+	width: 100%;
+	border: none;
+}
+.reply__column-functions button i {
+	opacity: 1;
+}
+.reply__column-functions button:focus,
+.reply__column-functions button:active {
+	outline: none;
+}

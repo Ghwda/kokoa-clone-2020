@@ -9,6 +9,8 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/message-row.css";
+@import "components/reply.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -18,9 +20,33 @@
 @import "screens/setting.css";
 @import "screens/chat.css";
 body {
-	height: 1000vh;
+	height: 500vh;
 	font-family: "Open Sans", sans-serif;
 }
 .main-screen {
 	padding: 0 var(--horizontal-space);
 }
+
+/* @keyframes hideSplashScreen {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+#splash-screen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--yellow);
+	position: absolute;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+	font-size: 70px;
+	animation: hideSplashScreen 1s ease-in-out forwards;
+	animation-delay: 1s;
+} */

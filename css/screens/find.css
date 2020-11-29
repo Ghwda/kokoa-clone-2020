@@ -1,3 +1,15 @@
+@keyframes heartBeat {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.4);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
 .find-recommended {
 	border-top: var(--main-border);
 	border-bottom: var(--main-border);
@@ -92,4 +104,13 @@
 	font-size: 14px;
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 10px;
+	transition: color;
+}
+.find-openchat__post__column-likes:hover {
+	cursor: pointer;
+}
+.find-openchat__post__column-likes:hover i {
+	will-change: transform;
+	color: salmon;
+	animation: heartBeat 1s linear infinite;
 }
