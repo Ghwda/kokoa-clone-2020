@@ -11,6 +11,7 @@
 @import "components/icon-row.css";
 @import "components/message-row.css";
 @import "components/reply.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -20,10 +21,10 @@
 @import "screens/setting.css";
 @import "screens/chat.css";
 body {
-	height: 500vh;
 	font-family: "Open Sans", sans-serif;
 }
 .main-screen {
+	margin-bottom: 73px;
 	padding: 0 var(--horizontal-space);
 }
 
